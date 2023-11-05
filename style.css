@@ -1,0 +1,292 @@
+﻿html, body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.signIn {
+    display: flex;
+    flex-wrap: wrap;
+    background: grey;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+form.signIn {
+    width: 20%;
+    height: 30%;
+    min-width: 300px;
+    min-height: 288px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+input.signIn {
+    width: 100%;
+    height: 15%;
+    border-radius: 5px;
+    border: 0px;
+    outline: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+input.button {
+    width: 100%;
+    height: 17%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    background: linear-gradient(to right, lime, red);
+    border: 0px;
+}
+
+div.gameDiv {
+    display: none;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+div.menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: flex-end;
+    background: grey;
+}
+
+div.name {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    width: 94%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+div.logOff{
+    display: none;
+    flex-direction: column;
+    background: grey;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 10%;
+    height: 10%;
+    min-width: 183px;
+}
+
+div.game {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 89%;
+    background: green;
+    border-style: solid;
+    border-color: saddlebrown;
+    border-width: 5px;
+}
+
+div.player {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+    height: 60%;
+}
+
+div.enemy {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+    height: 60%;
+}
+
+div.buttonGame {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+button.round {
+    width: 20%;
+    height: 55%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    border-radius: 5px;
+    background: red;
+    min-width: 300px;
+}
+
+div.exit {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90px;
+    height: 100%;
+    min-width: 40px;
+}
+
+button.exit{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/exit2.png);
+    background-size: 100px 90px;
+    background-color: grey;
+    background-repeat: no-repeat;
+    border: 0px;
+    outline: none;
+}
+
+div.logOffText {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+div.logOffButtons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button.logOffConfYes {
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 40%;
+    height: 90%;
+    border-radius: 5px;
+    border: 0px;
+    outline: none;
+    background: green;
+}
+
+button.logOffConfNo {
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 40%;
+    height: 90%;
+    border-radius: 5px;
+    border: 0px;
+    outline: none;
+    background: red;
+}
+
+div.numberBalls {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div.card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    min-width: 40px;
+    height: 90%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+div.score {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+div.wins {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+div.username {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 320px)
+{
+    div.signIn {
+        flex-direction: column;
+        height: auto;
+    }
+
+    form.signIn {
+        font-size: 20px;
+        min-width: 80%;
+    }
+
+    input.signIn {
+        height: 12%;
+        font-size: 20px;
+    }
+
+    input.button {
+        height: 15%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    div.wins{
+        font-size: 20px;
+    }
+}

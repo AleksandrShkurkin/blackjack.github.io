@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Lr8</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div id="signInDiv" class="signIn">
+        <form id="formSignIn" name="signIn" class="signIn">
+            <lable id="enter" for="username"> Enter your username: </lable> <br> <br>
+            <input type="text" id="username" name="username" class="signIn"> <br> <br>
+            <input type="button" id="complete" name="complete" value="Game start" class="button">
+            </form>
+        </div>
+    <div class="gameDiv" id="gameDiv">
+        <div class="menu">
+            <div class="name"> Blackjack </div>
+            <div class="exit">
+            <button id="exit" class="exit"></button>
+                </div>
+            </div>
+        <div class="game">
+            <div class="player">
+                <div class="username" id="usernameOut"></div>
+                <div class="numberBalls">
+                    <div class="card" id="h1">
+                    </div>
+                    <div class="card" id="h2">
+                    </div>
+                </div>
+                <div class="score" id="scoreH">
+                    </div>
+                <div class="wins" id="winH">
+                    </div>
+                </div>
+            <div class="enemy">
+                <div class="username">
+                    Enemy A.I.
+                </div>
+                <div class="numberBalls">
+                    <div class="card" id="ai1">
+                    </div>
+                    <div class="card" id="ai2">
+                    </div>
+                </div>
+                <div class="score" id="scoreAI">
+                </div>
+                <div class="wins" id="winAI">
+                </div>
+            </div>
+            <div class="buttonGame">
+                <button class="round" id="round"> </button>
+                </div>
+            </div>
+        <div class="logOff" id="logOff">
+            <div class="logOffText">
+                Do you want to log off?
+                </div>
+            <div class="logOffButtons">
+                <button class="logOffConfYes" id="yes"> Yes </button>
+                <button class="logOffConfNo" id="no"> No </button>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
