@@ -285,14 +285,14 @@ div.username {
     }
 }
 
-@media screen and (max-width: 470px) {
-    div.wins{
-        font-size: 20px;
-    }
-}
-
 @media screen and (max-width: 650px) {
     div.card {
         font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    div.wins{
+        font-size: 20px;
     }
 }
